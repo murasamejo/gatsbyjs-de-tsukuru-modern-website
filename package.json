@@ -22,6 +22,7 @@
   "devDependencies": {
     "babel-plugin-styled-components": "^1.12.0",
     "gatsby-plugin-styled-components": "^4.1.0",
+    "gatsby-source-faker": "^3.1.0",
     "prettier": "2.2.1",
     "styled-components": "^5.2.1"
   },

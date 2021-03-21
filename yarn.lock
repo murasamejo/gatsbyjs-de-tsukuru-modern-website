@@ -5295,6 +5295,11 @@ extract-files@9.0.0:
   resolved "https://registry.yarnpkg.com/extract-files/-/extract-files-9.0.0.tgz#8a7744f2437f81f5ed3250ed9f1550de902fe54a"
   integrity sha512-CvdFfHkC95B4bBBk36hcEmvdR2awOdhhVUYH6S/zrVj3477zven/fJMYg7121h4T1xHZC+tetUpubpAhxwI7hQ==
 
+faker@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/faker/-/faker-4.1.0.tgz#1e45bbbecc6774b3c195fad2835109c6d748cc3f"
+  integrity sha1-HkW7vsxndLPBlfrSg1EJxtdIzD8=
+
 fast-copy@^2.1.0:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/fast-copy/-/fast-copy-2.1.1.tgz#f5cbcf2df64215e59b8e43f0b2caabc19848083a"
@@ -6013,6 +6018,14 @@ gatsby-recipes@^0.12.0:
     ws "^7.3.0"
     xstate "^4.9.1"
     yoga-layout-prebuilt "^1.9.6"
+
+gatsby-source-faker@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/gatsby-source-faker/-/gatsby-source-faker-3.1.0.tgz#d1e985550f4c3752b044e0969019c355698fd072"
+  integrity sha512-MmzzJ1kbjREPkWscUFnAtcso/917GX2DuP5qcL/letlDV0c9RJ4QLwQxEYix3e8qg1xsVPJb05n5JVF4Gie8mA==
+  dependencies:
+    "@babel/runtime" "^7.12.5"
+    faker "^4.1.0"
 
 gatsby-source-filesystem@^3.0.0:
   version "3.1.0"
