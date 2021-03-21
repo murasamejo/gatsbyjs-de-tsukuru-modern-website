@@ -5,18 +5,6 @@ module.exports = {
     author: `@gatsbyjs`,
   },
   plugins: [
-    `gatsby-source-faker`,
-    {
-      resolve: `gatsby-source-faker`,
-      // derive schema from faker's options
-      options: {
-        schema: {
-          name: ["firstName", "lastName"],
-        },
-        count: 3, // how many fake objects you need
-        type: "NameData", // Name of the graphql query node
-      },
-    },
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-image`,
     {
