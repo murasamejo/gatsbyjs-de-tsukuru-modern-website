@@ -5875,7 +5875,7 @@ gatsby-page-utils@^1.0.0:
     lodash "^4.17.20"
     micromatch "^4.0.2"
 
-gatsby-plugin-gatsby-cloud@^2.0.0:
+gatsby-plugin-gatsby-cloud@2.0.0:
   version "2.0.0"
   resolved "https://registry.npmjs.org/gatsby-plugin-gatsby-cloud/-/gatsby-plugin-gatsby-cloud-2.0.0.tgz"
   integrity sha512-JXbiQpvoDxrMi28fJ+MJWMo+Yn3c/RML9dZQJZetm7mWrrIAcGWOoT/SaQcvcwuZAloS3LLSWC+CDopBNipm3g==
@@ -5886,7 +5886,7 @@ gatsby-plugin-gatsby-cloud@^2.0.0:
     lodash "^4.17.20"
     webpack-assets-manifest "^5.0.1"
 
-gatsby-plugin-image@^1.0.0:
+gatsby-plugin-image@1.13.0:
   version "1.13.0"
   resolved "https://registry.npmjs.org/gatsby-plugin-image/-/gatsby-plugin-image-1.13.0.tgz"
   integrity sha512-ZJcModngwC+2r/mQRz03kWpEpeA4OfgJeyCKC3wBjx3dr8n5fpYRmhnX21U6Wh9QyjdVh0sHykmYEgs2vrPa1A==
@@ -5904,7 +5904,7 @@ gatsby-plugin-image@^1.0.0:
     objectFitPolyfill "^2.3.0"
     prop-types "^15.7.2"
 
-gatsby-plugin-manifest@^3.0.0:
+gatsby-plugin-manifest@3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/gatsby-plugin-manifest/-/gatsby-plugin-manifest-3.0.0.tgz"
   integrity sha512-xmnppsXR0+CTQZhEmvcrbbV6rvOgO5ybE6Ywwv0bosSJxML3oBoo+kC8HCwK097Ppofgd1inSwNbJ5FB8wdNbQ==
@@ -5915,7 +5915,7 @@ gatsby-plugin-manifest@^3.0.0:
     semver "^7.3.2"
     sharp "^0.27.0"
 
-gatsby-plugin-offline@^4.0.0:
+gatsby-plugin-offline@4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/gatsby-plugin-offline/-/gatsby-plugin-offline-4.0.0.tgz"
   integrity sha512-aAc33ocF84Qqlz9AvqcrDA0hkwF76ZbwHoST3jLpDU6ZOoVMy3eMTNVv/4baF9pBlhRZX0RzE46yzvE+bti0ew==
@@ -5942,14 +5942,14 @@ gatsby-plugin-page-creator@^3.0.0:
     globby "^11.0.2"
     lodash "^4.17.20"
 
-gatsby-plugin-react-helmet@^4.0.0:
+gatsby-plugin-react-helmet@4.0.0:
   version "4.0.0"
   resolved "https://registry.npmjs.org/gatsby-plugin-react-helmet/-/gatsby-plugin-react-helmet-4.0.0.tgz"
   integrity sha512-l83wSwjF3Wq8ZHAFwhwx5EKQ67NUNCaZp9XDDplVQ+zFZ6dVAAax56wZLp6kQ++bYr+Hu9NOODLbLITtff+Eiw==
   dependencies:
     "@babel/runtime" "^7.12.5"
 
-gatsby-plugin-sharp@^3.0.0:
+gatsby-plugin-sharp@3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/gatsby-plugin-sharp/-/gatsby-plugin-sharp-3.0.0.tgz"
   integrity sha512-gmIzHjv+JaW1Gyyrz81s43yBkqtMpgvGb6qbPzH2ZX8V2YTyd9LnfUxKx/uTwluEB5oz/om4jtHSCH5DSUsTFA==
@@ -5975,7 +5975,7 @@ gatsby-plugin-sharp@^3.0.0:
     svgo "1.3.2"
     uuid "3.4.0"
 
-gatsby-plugin-styled-components@^4.1.0:
+gatsby-plugin-styled-components@4.13.0:
   version "4.13.0"
   resolved "https://registry.npmjs.org/gatsby-plugin-styled-components/-/gatsby-plugin-styled-components-4.13.0.tgz"
   integrity sha512-Zd6kGbzpWSKNdJjqObOSVJhOffsrNSGjwl+x5iZRPI5/eLN0mPqes/cb2cl6g9Q8C2JHMf9fF8VZSBN6O9eDZQ==
@@ -6073,7 +6073,7 @@ gatsby-recipes@^0.11.0:
     xstate "^4.9.1"
     yoga-layout-prebuilt "^1.9.6"
 
-gatsby-source-contentful@^5.1.1:
+gatsby-source-contentful@5.13.0:
   version "5.13.0"
   resolved "https://registry.npmjs.org/gatsby-source-contentful/-/gatsby-source-contentful-5.13.0.tgz"
   integrity sha512-7tUTBLvf6EXGyaGj8Ae3xA76/nv3R5niEX5icbDvS7VUtLpBH/pjv6lshC3KWousn516jUywBPG5L7UbMERFpg==
@@ -6099,7 +6099,7 @@ gatsby-source-contentful@^5.1.1:
     qs "^6.10.1"
     retry-axios "^2.4.0"
 
-gatsby-source-faker@^3.1.0:
+gatsby-source-faker@3.13.0:
   version "3.13.0"
   resolved "https://registry.npmjs.org/gatsby-source-faker/-/gatsby-source-faker-3.13.0.tgz"
   integrity sha512-jtaxSfAdtQqZukmETFBeBlTd5ffJCsDyA3GK7o836x5LWPAYKVj9Nfjkn6cvJcPreNaOF9doy42a/qNZNRkc3g==
@@ -6107,7 +6107,7 @@ gatsby-source-faker@^3.1.0:
     "@babel/runtime" "^7.14.8"
     faker "^4.1.0"
 
-gatsby-source-filesystem@^3.0.0, gatsby-source-filesystem@^3.13.0:
+gatsby-source-filesystem@3.13.0, gatsby-source-filesystem@^3.13.0:
   version "3.13.0"
   resolved "https://registry.npmjs.org/gatsby-source-filesystem/-/gatsby-source-filesystem-3.13.0.tgz"
   integrity sha512-SR0OFKunE4OtsZ0E7kpX6kipQcbrw3jTfROuhqD6EJPM5hkTxeEI/6I2r/bUo4ZS1rpwrEYd3UF89Q0YdAhLqQ==
@@ -6146,7 +6146,7 @@ gatsby-telemetry@^2.0.0:
     node-fetch "^2.6.1"
     uuid "3.4.0"
 
-gatsby-transformer-sharp@^3.0.0:
+gatsby-transformer-sharp@3.0.0:
   version "3.0.0"
   resolved "https://registry.npmjs.org/gatsby-transformer-sharp/-/gatsby-transformer-sharp-3.0.0.tgz"
   integrity sha512-ydkUxYdoELPHcuE2OyTjgS3odcCikn6MPRC//dxPYDrIDMoJ6xPkbetTrshOEdGa2Yf02pp75Fs82PSeC+AXhA==
@@ -6160,7 +6160,7 @@ gatsby-transformer-sharp@^3.0.0:
     semver "^7.3.4"
     sharp "^0.27.0"
 
-gatsby@^3.0.1:
+gatsby@3.0.1:
   version "3.0.1"
   resolved "https://registry.npmjs.org/gatsby/-/gatsby-3.0.1.tgz"
   integrity sha512-ap9gbjPrk9ft1SY+fsAKfOpHWfUS+wb5kkeRxOunsQvvizoCUqCcxlRbuNpw1EKmPoHGbHN5D1vVEh1RXAwM6g==
