@@ -24,7 +24,7 @@
     "babel-plugin-styled-components": "2.0.1",
     "gatsby-plugin-styled-components": "5.2.0",
     "gatsby-source-faker": "4.2.0",
-    "prettier": "2.4.1",
+    "prettier": "2.5.0",
     "styled-components": "5.3.3"
   },
   "keywords": [
