@@ -1,4 +1,6 @@
 require('dotenv').config();
+const { resolve } = require('path');
+const path = require('path');
 
 module.exports = {
   siteMetadata: {
@@ -43,4 +45,34 @@ module.exports = {
     // `gatsby-plugin-offline`,
     `gatsby-plugin-styled-components`,
   ],
+}
+
+exports.createPages = ({ graphql, actions }) => {
+  const { createPage } = actions;
+  const postTemplate = path.resolve(`src/templates/post.js`);
+
+  return new Promise((resolve, _reject) => {
+    graphql(`
+    {
+      allContentfulPost {
+        edges {
+          node {
+            slug
+          }
+        }
+      }
+    }
+    `).then(result => {
+      result.data.allContentfulPost.edges.forEach(edge => {
+        createPage({
+          path: `/post/${edge.node.slug}`,
+          component: postTemplate,
+          context: {
+            slug: edge.node.slug,
+          }
+        })
+      })
+      resolve()
+    })
+  })
 }
