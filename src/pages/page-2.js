@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { graphql } from 'gatsby'
+import { graphql, Link } from 'gatsby'
 import Layout from '../components/layout'
 
 const SecondPage = ({ data }) => (
@@ -16,6 +16,11 @@ const SecondPage = ({ data }) => (
         <p>{edge.node.content.content}</p>
       </div>
     })}
+    {data.allContentfulPost.edges.map(edge => {
+      return <div>
+        <Link to={`/post/${edge.node.slug}`}>{edge.node.title}</Link>
+      </div>
+    })}
   </Layout>
 )
 
@@ -25,6 +30,7 @@ export const query = graphql`
     edges {
       node {
         title
+        slug
         content {
           content
         }

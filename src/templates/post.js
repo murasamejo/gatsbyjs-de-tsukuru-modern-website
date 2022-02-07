@@ -18,7 +18,7 @@ const Post = props => {
       <small>
         {author.name} | {post.publishedAt}
       </small>
-      <div>post.content</div>
+      <div>{post.content.content}</div>
     </Layout>
   )
 }
