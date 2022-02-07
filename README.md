@@ -1,3 +1,19 @@
+## Dockerイメージ をビルドして Artifact Registry に push し、Cloud Run にデプロイする
+
+### 1. ビルドする
+```bash
+$ docker image build -t us-west1-docker.pkg.dev/プロジェクトID/リポジトリ名/イメージ名:タグ --build-arg CONTENTFUL_SPACE_ID="HOGE" --build-arg CONTENTFUL_ACCESS_TOKEN="FUGA" .
+```
+
+### 2. push する（認証は済んでいるものとする）
+```bash
+$ docker image push us-west1-docker.pkg.dev/プロジェクトID/リポジトリ名/イメージ名:タグ
+```
+
+### 3. Cloud Run でデプロイする
+- とりあえずコンソールからサクッとやる
+  - https://console.cloud.google.com/run
+
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">
