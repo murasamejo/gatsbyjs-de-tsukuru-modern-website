@@ -23,7 +23,7 @@
     "react-helmet": "6.1.0"
   },
   "devDependencies": {
-    "babel-plugin-styled-components": "2.0.2",
+    "babel-plugin-styled-components": "2.0.3",
     "dotenv": "^16.0.0",
     "gatsby-plugin-styled-components": "5.7.0",
     "gatsby-source-faker": "4.7.0",
