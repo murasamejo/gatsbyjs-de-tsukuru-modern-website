@@ -27,7 +27,7 @@
     "dotenv": "^16.0.0",
     "gatsby-plugin-styled-components": "5.9.0",
     "gatsby-source-faker": "4.9.0",
-    "prettier": "2.5.1",
+    "prettier": "2.6.0",
     "styled-components": "5.3.3"
   },
   "keywords": [
