@@ -1,4 +1,4 @@
-FROM node:16.14.0
+FROM node:16.14.1
 
 # $ docker image build -t us-west1-docker.pkg.dev/プロジェクトID/リポジトリ名/イメージ名:タグ . --build-arg CONTENTFUL_SPACE_ID="HOGE" CONTENTFUL_ACCESS_TOKEN="FUGA"
 ARG CONTENTFUL_SPACE_ID
